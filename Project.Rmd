@@ -1,0 +1,53 @@
+---
+title: "Pstat175_Project"
+author: "Dongwoo (Kevin) Heo"
+date: "2022-11-04"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+PSTAT 175 Project Proposal
+Emily Zhuang
+Kevin Heo
+Shengjian Liu
+```{r}
+
+```
+
+Submit a brief write-up including
+
+A description of your data and what scientific questions you are trying to answer in your analysis. Please give a description of the covariates in your data matrix written in your own words.
+
+This dataset is from several studies focused on acute myeloid leukemia (AML) and the effect of different therapies. Acute myeloid leukemia is a type of blood and bone marrow cancer that produces an excess of myeloid cells in the bloodstream.
+Our group will try to answer the scientific question in our analysis, showing the association of drug response with race(ethnicity), gender, mutational status, drug sensitivity, and disease type.
+What variables have an effect on the survival rate of patients with acute myeloid leukemia (AML).
+Description of the covariates:
+demo_gender:
+demo_race:
+demo_ethnicity:
+demo_vital_status:
+demo_age_at_index:
+demo_state:
+demo__created_datetime:
+demo_updated_datetime:
+diag__diagnosis_id:
+diag__primary_diagnosis
+diag__progression_or_recurrence
+diag__site_of_resection_or_biopsy
+diag__age_at_diagnosis
+A graph of your data (for most people a KM plot is a good idea.)
+ 
+ 
+ 
+ 
+ 
+What interesting statistical tools will you need to use in this analysis? In particular, what complications do you see in the data that will lead you to use procedures beyond the simple ones we have already discussed in class?
+ 
+Each group only needs to submit 1 paper.
+https://www.kaggle.com/datasets/fedesoriano/cirrhosis-prediction-dataset
+https://www.kaggle.com/datasets/aman2114/turnover-survival-analysis
+https://www.kaggle.com/code/marcusgawronsky/coronavirus-covid-19-survival-analysis/notebook
+https://isb-cgc.appspot.com/bq_meta_search/
